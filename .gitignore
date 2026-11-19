@@ -1,0 +1,16 @@
+﻿
+# Local environment and secrets
+.venv/
+.env
+.env.*
+!.env.example
+
+# Python generated files
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Generated policy data
+data/processed/
+
+data/qdrant/
